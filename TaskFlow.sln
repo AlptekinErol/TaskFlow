@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TaskFlow", "TaskFlow", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E961942D-C128-4992-A9B7-5140D36BF432}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.TaskApi", "Services\Task\TaskFlow.TaskApi\TaskFlow.TaskApi.csproj", "{4FA6ADAD-AEBD-4DA3-ADE2-884D4339D0C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.Consumer", "Services\Task\TaskFlow.Consumer\TaskFlow.Consumer.csproj", "{E4F88870-48B0-400F-878A-AD446ED8C806}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task", "Task", "{830A508D-1A77-47F3-9395-E9302C5F6E25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{D600DF6E-CAF0-4C08-8AB5-C418DDED9115}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.SharedResources", "Services\Shared\TaskFlow.SharedResources\TaskFlow.SharedResources.csproj", "{294237F8-4149-4284-8505-44331895A943}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8B180221-F824-43BB-A9C1-340485E5E289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.Infrastructure", "Infrastructure\TaskFlow.Infrastructure\TaskFlow.Infrastructure.csproj", "{A6154229-8C23-40CB-8F22-32A757D16972}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FA6ADAD-AEBD-4DA3-ADE2-884D4339D0C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA6ADAD-AEBD-4DA3-ADE2-884D4339D0C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA6ADAD-AEBD-4DA3-ADE2-884D4339D0C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA6ADAD-AEBD-4DA3-ADE2-884D4339D0C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F88870-48B0-400F-878A-AD446ED8C806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F88870-48B0-400F-878A-AD446ED8C806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F88870-48B0-400F-878A-AD446ED8C806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F88870-48B0-400F-878A-AD446ED8C806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{294237F8-4149-4284-8505-44331895A943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294237F8-4149-4284-8505-44331895A943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{294237F8-4149-4284-8505-44331895A943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{294237F8-4149-4284-8505-44331895A943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6154229-8C23-40CB-8F22-32A757D16972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6154229-8C23-40CB-8F22-32A757D16972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6154229-8C23-40CB-8F22-32A757D16972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6154229-8C23-40CB-8F22-32A757D16972}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E961942D-C128-4992-A9B7-5140D36BF432} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4FA6ADAD-AEBD-4DA3-ADE2-884D4339D0C5} = {830A508D-1A77-47F3-9395-E9302C5F6E25}
+		{E4F88870-48B0-400F-878A-AD446ED8C806} = {830A508D-1A77-47F3-9395-E9302C5F6E25}
+		{830A508D-1A77-47F3-9395-E9302C5F6E25} = {E961942D-C128-4992-A9B7-5140D36BF432}
+		{D600DF6E-CAF0-4C08-8AB5-C418DDED9115} = {E961942D-C128-4992-A9B7-5140D36BF432}
+		{294237F8-4149-4284-8505-44331895A943} = {D600DF6E-CAF0-4C08-8AB5-C418DDED9115}
+		{8B180221-F824-43BB-A9C1-340485E5E289} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A6154229-8C23-40CB-8F22-32A757D16972} = {8B180221-F824-43BB-A9C1-340485E5E289}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7EAFEBB-9D26-4F88-82D6-8E36A08976BC}
+	EndGlobalSection
+EndGlobal
